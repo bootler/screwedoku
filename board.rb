@@ -45,12 +45,13 @@ class Board
     end
   end
 
-
   def size
     grid.size
   end
 
-  alias_method :rows, :size
+  def rows
+    grid
+  end
 
   def solved?
     rows.all? { |row| solved_set?(row) } &&
@@ -80,5 +81,4 @@ class Board
   def squares
     (0..8).to_a.map { |i| square(i) }
   end
-
 end
