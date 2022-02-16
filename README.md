@@ -1,3 +1,7 @@
+
+This fork is a completed version of the exercise described below, and is part of a catalog of solutions and completed projects for the [App Academy Open - Full Stack Online](https://open.appacademy.io) course. More info: [here](https://github.com/bootler/fullstack-solutions/tree/main/Ruby/Git/Screwedoku)
+
+
 # Screwedoku
 
 ## Overview
